@@ -1,0 +1,28 @@
+body {
+  font-size: 1.2rem;
+}
+
+#img1 {
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  padding: inherit;
+
+}
+
+p{
+    clear:none;
+
+
+}
+
+div{
+  border: 5px solid firebrick;
+  overflow: auto;
+  padding: 10px;
+  background-color: salmon;
+  overflow: auto;
+}
+
+/*Float é uma propriedade do display, que deixa o elemento flutuando do lado do outro.*/

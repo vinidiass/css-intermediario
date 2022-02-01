@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS OVER FLOW</title>
+
+    <style type="text/css">
+      body {
+        font-size: 1.2rem;
+      }
+
+      #container {
+        color: yellow;
+        background-color: blue;
+        width: 600px;
+        height: 600px;
+        overflow: auto;
+
+        /* overflow: visible; = Padrão 
+        overflow: hidden; = esconde o texto da quebra de linha. 
+        overflow: scrool; = com isso voce roda o mause e consegue ver o texto completo 
+        overflow: auto; = o Scrol só vai aonde precisa de fato no texto. 
+      
+      */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <img src="thumbnail_IMG_0515.jpg" />
+    </div>
+  </body>
+</html>
